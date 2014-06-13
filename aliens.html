@@ -1,9 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <head>
 	<title>Aliens Atack!</title>
 	<link type='text/css' rel='stylesheet' href='aliens_style.css'></link>
 </head>
 <body>
-	<p id="output"></p>
-	<input id="input" type="text" placeholder="Enter" autofocus>
+	<div id='stage'>
+		<div id='background'></div>
+		<div id='cannon'></div>
+		<div id='missile'></div>
+		<div id='alien'></div>
+	</div>
+	
+	<p id="output">Enter coordinates (0-300), and click Die!!</p>
+	<input id="X" type="text" placeholder="X...">
+	<input id="Y" type="text" placeholder="Y...">
+	<button>Die!!</button>
 </body>
