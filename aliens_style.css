@@ -22,8 +22,6 @@
 	width:20px;
 	height:20px;
 	position:absolute;
-	top:20px;
-	left:80px;
 	background-image:url('images/Princess.png');
 	position:absolute;
 }
@@ -31,7 +29,7 @@
 	width:10px;
 	height:10px;
 	position:absolute;
-	top:240px;
-	left:245px;
+	top:260px;
+	left:140px;
 	background-image:url('images/BulletBill.png');
 }
