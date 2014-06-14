@@ -52,7 +52,7 @@ function validateInput(){
 function playGame(){
 	shotsRemaining -=1;
 	shotsMade +=1;
-	gameState='Shot: ' + shotsMade + ', Shots remaining: ' + shotsRemaining;
+	gameState='Shots remaining: ' + shotsRemaining;
 	
 	if(guessX >= alienX && guessX <= alienX + 20){
 		if (guessY >= alienY && guessY <= alienY + 20){
@@ -61,7 +61,7 @@ function playGame(){
 		}
 	}
 	else{
-		output.innerHTML='You missed the shot.' + gameState;
+		output.innerHTML='Miss' + '<br>' + gameState;
 		if (shotsRemaining<1){
 			gameOver();
 		}
